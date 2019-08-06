@@ -36,7 +36,6 @@ class ViewController: UIViewController {
     @IBAction func slideToValue(_ sender: Any) {
         sliderValue = Int(slider.value)
         curveValue.text = String(Int(sliderValue))
-        print("Ⓜ️ slider value: \(slider.value)")
     }
     
     
@@ -53,8 +52,6 @@ class ViewController: UIViewController {
         path.move(to: start)
         
         // Calculate the control points
-//        let c1 = CGPoint(x: start.x + 64, y: start.y)
-//        let c2 = CGPoint(x: end.x,        y: end.y - 128)
         let c1 = CGPoint(x: start.x + CGFloat(sliderValue), y: start.y)
         let c2 = CGPoint(x: end.x,        y: end.y)
         
