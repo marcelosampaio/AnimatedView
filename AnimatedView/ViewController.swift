@@ -72,5 +72,17 @@ class ViewController: UIViewController {
     }
     
     
+    
+    /*
+     UIView.animateKeyframes(withDuration: 2, delay: 0, options: [], animations: {
+     UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.5, animations: {
+     self.animatedView.backgroundColor = .green
+     })
+     UIView.addKeyframe(withRelativeStartTime: 0.5, relativeDuration: 0.5, animations: {
+     self.animatedView.backgroundColor = .blue
+     })
+     }, completion: nil)
+    */
+    
 }
 
